@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "SRWP — Solving Real World Problems",
-  description: "A community platform to identify, discuss, and solve real-world problems using AI.",
+  title: "GGE — Guide, Grow, Earn",
+  description: "Every Indian deserves guidance, growth and earning opportunity — free forever. By GKFXL.",
 };
 
 export default function RootLayout({ children }) {
@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Nunito:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
       </head>
