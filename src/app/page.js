@@ -617,7 +617,9 @@ const AIPage = ({ user }) => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          messages: newMessages.filter(m => m.role === "user" || m.role === "assistant").map(m => ({ role: m.role === "assistant" ? "assistant" : "user", content: m.text })),
+          messages: newMessages
+  .filter(m => m.role === "user")
+  .map(m => ({ role: "user", content: m.text })),
           userName: user?.name || "GGE User",
         }),
       });
